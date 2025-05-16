@@ -2,7 +2,7 @@
 service: kamatest
 
 # Name of the container image.
-image: kisuke/kamatest
+image: dostonlv/kamatest
 
 # Deploy to these servers.
 servers:
