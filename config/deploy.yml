@@ -21,14 +21,14 @@ servers:
 proxy:
   ssl: true
   host: kamal.kisuke.uz
-  app_port: 8089
+  # app_port: 8089
   ssl_redirect: true
   # Proxy connects to your container on port 80 by default.
   # app_port: 3000
-  healthcheck:
-    path: "/"         # GET http://localhost:80/
-    interval: 5      # poll every 5s
-    timeout:  3     # wait up to 3s per request
+  # healthcheck:
+  #   path: "/"         # GET http://localhost:80/
+  #   interval: 5      # poll every 5s
+  #   timeout:  3     # wait up to 3s per request
 
 # Credentials for your image host.
 registry:
