@@ -21,7 +21,7 @@ servers:
 proxy:
   ssl: true
   host: kamal.kisuke.uz
-  app_port: 8080
+  app_port: 8089
   ssl_redirect: true
   # Proxy connects to your container on port 80 by default.
   # app_port: 3000
