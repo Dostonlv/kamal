@@ -20,7 +20,7 @@ servers:
 # kamal proxy boot_config set --http-port=8089 --https-port=8443  -> kamal proxy change port
 proxy:
   ssl: true
-  host: kamal.kisuke.uz
+  host: demo.kisuke.uz
   # app_port: 8089
   ssl_redirect: true
   # Proxy connects to your container on port 80 by default.
